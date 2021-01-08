@@ -123,6 +123,7 @@ setup(
         "dremio": ["sqlalchemy-dremio>=1.1.5, <1.2"],
         "drill": ["sqlalchemy-drill==0.1.dev"],
         "druid": ["pydruid>=0.6.1,<0.7"],
+        "solr": ["sqlalchemy-solr >= 0.2.0"],
         "elasticsearch": ["elasticsearch-dbapi>=0.1.0, <0.2.0"],
         "exasol": ["sqlalchemy-exasol>=2.1.0, <2.2"],
         "excel": ["xlrd>=1.2.0, <1.3"],
@@ -142,7 +143,7 @@ setup(
         "snowflake": ["snowflake-sqlalchemy>=1.2.3, <1.3"],
         "teradata": ["sqlalchemy-teradata==0.9.0.dev0"],
         "thumbnails": ["Pillow>=7.0.0, <8.0.0"],
-        "vertica": ["sqlalchemy-vertica-python>=0.5.9, < 0.6"],
+        "vertica": ["sqlalchemy-vertica-python>=0.5.9, < 0.6"]
     },
     python_requires="~=3.7",
     author="Apache Software Foundation",
